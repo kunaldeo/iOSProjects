@@ -3,7 +3,7 @@
 //  Calulator
 //
 //  Created by Kunal Deo on 1/27/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 KDInc All rights reserved.
 //
 
 #import "CalculatorBrain.h"
