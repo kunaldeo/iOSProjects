@@ -57,7 +57,8 @@
 
 - (IBAction) digitPressed:(UIButton *)sender
 {
-	NSString *digit = [[sender titleLabel] text];
+	NSString *digit = sender.titleLabel.text;
+    
     //[self vibrate];
     
 	if(userIsInTheMiddleOfTypingANumber)
@@ -74,12 +75,13 @@
 
 - (IBAction) backspace:(UIButton *) sender
 {
-    if ([[display text] length] == 0)
+    if (display.text.length == 0)
     {
         UIAlertView *alert;
         alert = [[UIAlertView alloc] initWithTitle:@"Invalid Operation" message:@"Nothing to Clear !!" delegate:self cancelButtonTitle:@"Retry" otherButtonTitles: nil];
         [alert show];
-        [alert release];    }
+        [alert release];    
+    }
     else
     {
         display.text = [display.text substringToIndex:display.text.length - 1];
