@@ -142,6 +142,7 @@
 
 
 - (void)dealloc {
+    [brain release];
     [super dealloc];
 }
 

@@ -12,18 +12,13 @@
 @implementation CalculatorBrain
 
 double memval = 0;
+@synthesize operand;
 
 -(void) clear
 {
     memval = 0;
 }
 
-
--(void) setOperand:(double)aDouble
-{
-	operand = aDouble;
-	
-}
 
 
 
