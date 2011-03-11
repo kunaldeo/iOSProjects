@@ -1,0 +1,478 @@
+TCalulator
+v7
+r0
+t317802453.125171
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Calulator.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Info.plist Calulator-Info.plist
+cCompileXIB /Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib
+cCompileXIB /Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib
+cProcessPCH /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-gkgwuiqympmizngxoiqujwuzodpu/Calulator_Prefix.pch.gch Calulator_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fzhzxpttydwbhebeklriceuuwgnj/Calulator_Prefix.pch.gch Calulator_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/main.o /Users/kunaldeo/Dropbox/Learn/Calulator/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalulatorAppDelegate.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalulatorViewController.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalculatorBrain.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/main.o /Users/kunaldeo/Dropbox/Learn/Calulator/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalulatorAppDelegate.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalulatorViewController.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalculatorBrain.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/Calulator normal armv6
+cLd /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/Calulator normal armv7
+cCreateUniversalBinary /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Calulator normal "armv6 armv7"
+cGenerateDSYMFile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app.dSYM /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Calulator
+cProcessProductPackaging "/Users/kunaldeo/Library/MobileDevice/Provisioning Profiles/89D03AF4-F19C-492A-9CEE-CD9830C3BFA3.mobileprovision" /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/embedded.mobileprovision
+cTouch /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator.xcent
+cCodeSign /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib
+c000000004D410257000000000000C245
+t1296106071
+s49733
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_Prefix.pch
+c000000004D40E58900000000000000BB
+t1296098697
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.h
+c000000004D4105DA0000000000000180
+t1296106970
+s384
+i<Foundation/Foundation.h>
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m
+c000000004D410B4900000000000003E6
+t1296108361
+s998
+i"CalculatorBrain.h"
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.h
+c000000004D40E58900000000000001E8
+t1296098697
+s488
+i<UIKit/UIKit.h>
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m
+c000000004D40E5890000000000000A9C
+t1296098697
+s2716
+i"CalulatorAppDelegate.h"
+i"CalulatorViewController.h"
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.h
+c000000004D40E8EA00000000000001CF
+t1296099562
+s463
+i<UIKit/UIKit.h>
+i"CalculatorBrain.h"
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m
+c000000004D41103600000000000008C0
+t1296109622
+s2240
+i"CalulatorViewController.h"
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib
+c000000004D40E5890000000000004E41
+t1296098697
+s20033
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator.xcent
+t1296108216
+s424
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalculatorBrain.o
+t1296108361
+s10492
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/Calulator
+t1296109652
+s23664
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/Calulator.LinkFileList
+c000000004D410AB50000000000000212
+t1296108213
+s530
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalulatorAppDelegate.o
+t1296108216
+s50856
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalulatorViewController.o
+t1296109652
+s42172
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/main.o
+t1296108216
+s6448
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalculatorBrain.o
+t1296108361
+s9816
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/Calulator
+t1296109652
+s23368
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/Calulator.LinkFileList
+c000000004D410AB50000000000000212
+t1296108213
+s530
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalulatorAppDelegate.o
+t1296108216
+s50776
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalulatorViewController.o
+t1296109652
+s42048
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/main.o
+t1296108216
+s6432
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app
+t1296109653
+s374
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app.dSYM
+t1296109652
+s102
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Calulator
+t1296109652
+s52040
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/CalulatorViewController.nib
+t1296108214
+s4539
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Info.plist
+t1296108213
+s789
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/MainWindow.nib
+t1296108214
+s1127
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/PkgInfo
+t1296108213
+s8
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/ResourceRules.plist
+t1296108213
+s485
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/embedded.mobileprovision
+t1296108216
+s7354
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/main.m
+c000000004D40E5890000000000000168
+t1296098697
+s360
+i<UIKit/UIKit.h>
+
+N/Users/kunaldeo/Library/MobileDevice/Provisioning Profiles/89D03AF4-F19C-492A-9CEE-CD9830C3BFA3.mobileprovision
+c000000004D410A7D0000000000001CBA
+t1296108157
+s7354
+
+N/var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fzhzxpttydwbhebeklriceuuwgnj/Calulator_Prefix.pch.gch
+t1296108216
+s10446552
+
+N/var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-gkgwuiqympmizngxoiqujwuzodpu/Calulator_Prefix.pch.gch
+t1296108216
+s9983704
+
+NCalulator-Info.plist
+c000000004D40E589000000000000038D
+t1296098697
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317802452#317802452#0(0"0(0#1#0"8630037952#0"0#
+
+CCodeSign /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app
+s317802452.915777
+e317802453.125123
+r1
+xCodeSign
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/Calulator.app317802452#317802453#0(0"0(0#0#74"/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app8628171968#807"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Kunal Deo (2GE7NZ74EE)" --resource-rules=/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/ResourceRules.plist --entitlements /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator.xcent /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app0#
+
+CCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalculatorBrain.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317801161.055038
+e317801161.258496
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalculatorBrain.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m317801161#317801161#0(0"0(0#0#65"/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m8602699520#1953"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources/armv6 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-gkgwuiqympmizngxoiqujwuzodpu/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalculatorBrain.o0#
+
+CCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalulatorAppDelegate.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317801016.318315
+e317801016.466954
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalulatorAppDelegate.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m317801016#317801016#0(0"0(0#0#70"/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m8628076960#1963"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources/armv6 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-gkgwuiqympmizngxoiqujwuzodpu/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalulatorAppDelegate.o0#
+
+CCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalulatorViewController.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317802452.420074
+e317802452.550300
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalulatorViewController.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m317802452#317802452#0(0"0(0#0#73"/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m8625225248#1969"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources/armv6 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-gkgwuiqympmizngxoiqujwuzodpu/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/CalulatorViewController.o0#
+
+CCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/main.o /Users/kunaldeo/Dropbox/Learn/Calulator/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317801016.317159
+e317801016.410294
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/main.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/main.m317801016#317801016#0(0"0(0#0#46"/Users/kunaldeo/Dropbox/Learn/Calulator/main.m8628620704#1923"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources/armv6 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-gkgwuiqympmizngxoiqujwuzodpu/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/main.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalculatorBrain.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317801161.186987
+e317801161.259635
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalculatorBrain.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m317801161#317801161#0(0"0(0#0#65"/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m8601461952#1953"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources/armv7 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fzhzxpttydwbhebeklriceuuwgnj/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalculatorBrain.o0#
+
+CCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalulatorAppDelegate.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317801016.415773
+e317801016.566370
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalulatorAppDelegate.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m317801016#317801016#0(0"0(0#0#70"/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m8628659488#1963"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources/armv7 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fzhzxpttydwbhebeklriceuuwgnj/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalulatorAppDelegate.o0#
+
+CCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalulatorViewController.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317802452.460298
+e317802452.551795
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalulatorViewController.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m317802452#317802452#0(0"0(0#0#73"/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m8631424192#1969"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources/armv7 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fzhzxpttydwbhebeklriceuuwgnj/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/CalulatorViewController.o0#
+
+CCompileC build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/main.o /Users/kunaldeo/Dropbox/Learn/Calulator/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317801016.410432
+e317801016.511993
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/main.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/main.m317801016#317801016#0(0"0(0#0#46"/Users/kunaldeo/Dropbox/Learn/Calulator/main.m8596591520#1923"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources/armv7 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fzhzxpttydwbhebeklriceuuwgnj/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/main.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib
+s317801013.866909
+e317801014.792012
+r1
+xCompileXIB
+x/Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib
+lSLF07#2@38"CompileXIB CalulatorViewController.xib317801013#317801014#0(0"0(0#0#67"/Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib8629983552#721"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/CalulatorViewController.nib /Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib
+s317801013.865972
+e317801014.390584
+r1
+xCompileXIB
+x/Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317801013#317801014#0(0"0(0#0#54"/Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib8630058784#695"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/MainWindow.nib /Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/Calulator.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s317801013.827309
+e317801013.865877
+r1
+xCpResource
+xbuild/Debug-iphoneos/Calulator.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist317801013#317801013#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8628624320#646"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app0#
+
+CCreateUniversalBinary /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Calulator normal "armv6 armv7"
+s317802452.862660
+e317802452.882415
+r1
+xCreateUniversalBinary
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Calulator
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/Calulator.app/Calulator normal "armv6 armv7"317802452#317802452#0(0"0(0#0#51"/Users/kunaldeo/Dropbox/Learn/Calulator/armv6 armv78629482560#686"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /usr/bin/lipo -create /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/Calulator /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/Calulator -output /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Calulator0#
+
+CGenerateDSYMFile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app.dSYM /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Calulator
+s317802452.882516
+e317802452.911812
+r1
+xGenerateDSYMFile
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app.dSYM
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Calulator
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/Calulator.app.dSYM build/Debug-iphoneos/Calulator.app/Calulator317802452#317802452#0(0"0(0#0#84"/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Calulator8629002432#519"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/usr/bin/dsymutil /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Calulator -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app.dSYM0#
+
+CLd /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/Calulator normal armv6
+s317802452.550407
+e317802452.862552
+r1
+xLd
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/Calulator
+xnormal
+xarmv6
+lSLF07#2@128"Link /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/Calulator317802452#317802452#0(0"0(0#0#0"8632133760#1024"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -filelist /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/Calulator.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv6/Calulator0#
+
+CLd /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/Calulator normal armv7
+s317802452.551869
+e317802452.831724
+r1
+xLd
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/Calulator
+xnormal
+xarmv7
+lSLF07#2@128"Link /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/Calulator317802452#317802452#0(0"0(0#0#0"8631506432#1024"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -filelist /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/Calulator.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Objects-normal/armv7/Calulator0#
+
+CProcessInfoPlistFile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Info.plist Calulator-Info.plist
+s317801013.829891
+e317801013.842187
+r1
+xProcessInfoPlistFile
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Info.plist
+xCalulator-Info.plist
+lSLF07#2@28"Process Calulator-Info.plist317801013#317801013#0(0"0(0#0#60"/Users/kunaldeo/Dropbox/Learn/Calulator/Calulator-Info.plist8628517536#722"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    builtin-infoPlistUtility Calulator-Info.plist -genpkginfo /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/ResourceRules.plist -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/Info.plist0#
+
+CProcessPCH /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fzhzxpttydwbhebeklriceuuwgnj/Calulator_Prefix.pch.gch Calulator_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317801014.793248
+e317801016.317058
+r1
+xProcessPCH
+x/var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fzhzxpttydwbhebeklriceuuwgnj/Calulator_Prefix.pch.gch
+xCalulator_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Calulator_Prefix.pch317801014#317801016#0(0"0(0#0#60"/Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_Prefix.pch8629686368#1818"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources/armv7 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources -c /Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_Prefix.pch -o /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fzhzxpttydwbhebeklriceuuwgnj/Calulator_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-gkgwuiqympmizngxoiqujwuzodpu/Calulator_Prefix.pch.gch Calulator_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317801014.792139
+e317801016.232612
+r1
+xProcessPCH
+x/var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-gkgwuiqympmizngxoiqujwuzodpu/Calulator_Prefix.pch.gch
+xCalulator_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Calulator_Prefix.pch317801014#317801016#0(0"0(0#0#60"/Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_Prefix.pch8629996000#1818"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources/armv6 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/DerivedSources -c /Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_Prefix.pch -o /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-gkgwuiqympmizngxoiqujwuzodpu/Calulator_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/kunaldeo/Library/MobileDevice/Provisioning Profiles/89D03AF4-F19C-492A-9CEE-CD9830C3BFA3.mobileprovision" /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/embedded.mobileprovision
+s317801016.566489
+e317801016.582488
+r1
+xProcessProductPackaging
+x/Users/kunaldeo/Library/MobileDevice/Provisioning Profiles/89D03AF4-F19C-492A-9CEE-CD9830C3BFA3.mobileprovision
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/kunaldeo/Library/MobileDevice/Provisioning Profiles/89D03AF4-F19C-492A-9CEE-CD9830C3BFA3.mobileprovision" build/Debug-iphoneos/Calulator.app/embedded.mobileprovision317801016#317801016#0(0"0(0#0#99"/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/embedded.mobileprovision8594849312#578"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    <com.apple.tools.product-pkg-utility> "/Users/kunaldeo/Library/MobileDevice/Provisioning Profiles/89D03AF4-F19C-492A-9CEE-CD9830C3BFA3.mobileprovision" -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator.xcent
+s317801016.582586
+e317801016.598473
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator.xcent317801016#317801016#0(0"0(0#0#108"/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator.xcent8616438272#588"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphoneos/Calulator.build/Calulator.xcent0#
+
+CTouch /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app
+s317802452.912050
+e317802452.915487
+r1
+xTouch
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app
+lSLF07#2@80"Touch /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app317802452#317802452#0(0"0(0#0#0"8628498784#416"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /usr/bin/touch -c /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphoneos/Calulator.app0#
+

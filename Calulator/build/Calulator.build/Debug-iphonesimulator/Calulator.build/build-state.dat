@@ -1,0 +1,535 @@
+TCalulator
+v7
+r0
+t317846582.414175
+cCheck dependencies
+cProcessInfoPlistFile /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Info.plist Calulator-Info.plist
+cCompileXIB /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/MainWindow.xib
+cCompileXIB /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/CalulatorViewController.xib
+cCpResource build/Debug-iphonesimulator/Calulator.app/Calulator_2.xcclassmodel Calulator_2.xcclassmodel
+cProcessPCH /var/folders/IJ/IJMSGMOgEDSvA-BFdLerPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-akybecuptzfjngfnnxzyqvlvkvvr/Calulator_Prefix.pch.gch Calulator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/main.o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorAppDelegate.o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorViewController.o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalculatorBrain.o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator normal i386
+cGenerateDSYMFile /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app.dSYM /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator
+cTouch /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CF1AF180000000000000110
+t1290907416
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/CalulatorViewController.xib
+c000000004D41BCB3000000000000DFA2
+t1296153779
+s57250
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Calulator_2.xcclassmodel
+c000000004D414DD60000000000000088
+t1296125398
+s136
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Calulator_Prefix.pch
+c000000004D40E58900000000000000BB
+t1296098697
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalculatorBrain.h
+c000000004D4105DA0000000000000180
+t1296106970
+s384
+i<Foundation/Foundation.h>
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m
+c000000004D41BC9C00000000000005BB
+t1296153756
+s1467
+i"CalculatorBrain.h"
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.h
+c000000004D40E58900000000000001E8
+t1296098697
+s488
+i<UIKit/UIKit.h>
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m
+c000000004D40E5890000000000000A9C
+t1296098697
+s2716
+i"CalulatorAppDelegate.h"
+i"CalulatorViewController.h"
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorViewController.h
+c000000004D40E8EA00000000000001CF
+t1296099562
+s463
+i<UIKit/UIKit.h>
+i"CalculatorBrain.h"
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m
+c000000004D418D2700000000000008C0
+t1296141607
+s2240
+i"CalulatorViewController.h"
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/MainWindow.xib
+c000000004D40E5890000000000004E41
+t1296098697
+s20033
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalculatorBrain.o
+t1296153756
+s47040
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/Calulator.LinkFileList
+c000000004D4177550000000000000256
+t1296136021
+s598
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorAppDelegate.o
+t1296136022
+s51300
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorViewController.o
+t1296141607
+s42448
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/main.o
+t1296136022
+s6328
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app
+t1296153782
+s272
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app.dSYM
+t1296153756
+s102
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator
+t1296153756
+s23684
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/CalulatorViewController.nib
+t1296153782
+s5254
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator_2.xcclassmodel
+t1296125398
+s136
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Info.plist
+t1296111531
+s599
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/MainWindow.nib
+t1296111531
+s1127
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/PkgInfo
+t1296111531
+s8
+
+N/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/main.m
+c000000004D40E5890000000000000168
+t1296098697
+s360
+i<UIKit/UIKit.h>
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib
+c000000004D4117A2000000000000C963
+t1296111522
+s51555
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_2.xcclassmodel
+c000000004D4117AD0000000000000088
+t1296111533
+s136
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_Prefix.pch
+c000000004D40E58900000000000000BB
+t1296098697
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.h
+c000000004D4105DA0000000000000180
+t1296106970
+s384
+i<Foundation/Foundation.h>
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m
+c000000004D410B4900000000000003E6
+t1296108361
+s998
+i"CalculatorBrain.h"
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.h
+c000000004D40E58900000000000001E8
+t1296098697
+s488
+i<UIKit/UIKit.h>
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m
+c000000004D40E5890000000000000A9C
+t1296098697
+s2716
+i"CalulatorAppDelegate.h"
+i"CalulatorViewController.h"
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.h
+c000000004D40E8EA00000000000001CF
+t1296099562
+s463
+i<UIKit/UIKit.h>
+i"CalculatorBrain.h"
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m
+c000000004D41103600000000000008C0
+t1296109622
+s2240
+i"CalulatorViewController.h"
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib
+c000000004D40E5890000000000004E41
+t1296098697
+s20033
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalculatorBrain.o
+t1296111533
+s9956
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/Calulator.LinkFileList
+c000000004D4117AB000000000000022A
+t1296111531
+s554
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorAppDelegate.o
+t1296111533
+s51276
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorViewController.o
+t1296111533
+s42424
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/main.o
+t1296111533
+s6304
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app
+t1296112211
+s272
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app.dSYM
+t1296111533
+s102
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator
+t1296111533
+s19364
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/CalulatorViewController.nib
+t1296111531
+s4727
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator_2.xcclassmodel
+t1296112211
+s136
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Info.plist
+t1296111531
+s599
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/MainWindow.nib
+t1296111531
+s1127
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/PkgInfo
+t1296111531
+s8
+
+N/Users/kunaldeo/Dropbox/Learn/Calulator/main.m
+c000000004D40E5890000000000000168
+t1296098697
+s360
+i<UIKit/UIKit.h>
+
+N/var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fftmmoreqqpwhydczjhbkqgenapu/Calulator_Prefix.pch.gch
+t1296111533
+s15453392
+
+N/var/folders/IJ/IJMSGMOgEDSvA-BFdLerPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-akybecuptzfjngfnnxzyqvlvkvvr/Calulator_Prefix.pch.gch
+t1296136022
+s15453392
+
+NCalulator-Info.plist
+c000000004D40E589000000000000038D
+t1296098697
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317846581#317846581#0(0"0(0#1#0"8616299680#0"0#
+
+CCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalculatorBrain.o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317846556.291817
+e317846556.455754
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalculatorBrain.o
+x/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m317846556#317846556#0(0"0(0#0#76"/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m8611907840#2116"    cd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-generated-files.hmap -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-own-target-headers.hmap -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-project-headers.hmap -F/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/include -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources/i386 -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources -include /var/folders/IJ/IJMSGMOgEDSvA-BFdLerPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-akybecuptzfjngfnnxzyqvlvkvvr/Calulator_Prefix.pch -c /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m -o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalculatorBrain.o0#
+
+CCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalculatorBrain.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317804333.356262
+e317804333.489514
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalculatorBrain.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m317804333#317804333#0(0"0(0#0#65"/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m8638909216#2143"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources/i386 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fftmmoreqqpwhydczjhbkqgenapu/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalculatorBrain.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalculatorBrain.o0#
+
+CCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorAppDelegate.o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317828822.203464
+e317828822.399096
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorAppDelegate.o
+x/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m317828822#317828822#0(0"0(0#0#81"/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m8609016256#2126"    cd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-generated-files.hmap -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-own-target-headers.hmap -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-project-headers.hmap -F/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/include -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources/i386 -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources -include /var/folders/IJ/IJMSGMOgEDSvA-BFdLerPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-akybecuptzfjngfnnxzyqvlvkvvr/Calulator_Prefix.pch -c /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m -o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorAppDelegate.o0#
+
+CCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorAppDelegate.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317804333.354389
+e317804333.500495
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorAppDelegate.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m317804333#317804333#0(0"0(0#0#70"/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m8638861056#2153"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources/i386 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fftmmoreqqpwhydczjhbkqgenapu/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorAppDelegate.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorAppDelegate.o0#
+
+CCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorViewController.o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317834407.853012
+e317834407.980785
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorViewController.o
+x/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m317834407#317834407#0(0"0(0#0#84"/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m8611793056#2132"    cd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-generated-files.hmap -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-own-target-headers.hmap -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-project-headers.hmap -F/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/include -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources/i386 -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources -include /var/folders/IJ/IJMSGMOgEDSvA-BFdLerPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-akybecuptzfjngfnnxzyqvlvkvvr/Calulator_Prefix.pch -c /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m -o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorViewController.o0#
+
+CCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorViewController.o /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317804333.355258
+e317804333.486975
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorViewController.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m317804333#317804333#0(0"0(0#0#73"/Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m8638885184#2159"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources/i386 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fftmmoreqqpwhydczjhbkqgenapu/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/Classes/CalulatorViewController.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/CalulatorViewController.o0#
+
+CCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/main.o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317828822.202615
+e317828822.378970
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/main.o
+x/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/main.m317828822#317828822#0(0"0(0#0#57"/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/main.m8603212160#2086"    cd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-generated-files.hmap -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-own-target-headers.hmap -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-project-headers.hmap -F/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/include -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources/i386 -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources -include /var/folders/IJ/IJMSGMOgEDSvA-BFdLerPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-akybecuptzfjngfnnxzyqvlvkvvr/Calulator_Prefix.pch -c /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/main.m -o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/main.o /Users/kunaldeo/Dropbox/Learn/Calulator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317804333.353279
+e317804333.462901
+r1
+xCompileC
+xbuild/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/main.o
+x/Users/kunaldeo/Dropbox/Learn/Calulator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kunaldeo/Dropbox/Learn/Calulator/main.m317804333#317804333#0(0"0(0#0#46"/Users/kunaldeo/Dropbox/Learn/Calulator/main.m8638837600#2113"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources/i386 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources -include /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fftmmoreqqpwhydczjhbkqgenapu/Calulator_Prefix.pch -c /Users/kunaldeo/Dropbox/Learn/Calulator/main.m -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/CalulatorViewController.xib
+s317846581.846764
+e317846582.411556
+r1
+xCompileXIB
+x/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/CalulatorViewController.xib
+lSLF07#2@38"CompileXIB CalulatorViewController.xib317846581#317846582#0(0"0(0#0#78"/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/CalulatorViewController.xib8619152416#634"    cd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/CalulatorViewController.nib /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/CalulatorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/MainWindow.xib
+r0
+
+CCompileXIB /Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib
+s317804331.208628
+e317804331.943328
+r1
+xCompileXIB
+x/Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib
+lSLF07#2@38"CompileXIB CalulatorViewController.xib317804331#317804331#0(0"0(0#0#67"/Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib8636464928#749"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/CalulatorViewController.nib /Users/kunaldeo/Dropbox/Learn/Calulator/CalulatorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib
+s317804331.184864
+e317804331.647369
+r1
+xCompileXIB
+x/Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317804331#317804331#0(0"0(0#0#54"/Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib8636251936#723"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/MainWindow.nib /Users/kunaldeo/Dropbox/Learn/Calulator/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Calulator.app/Calulator_2.xcclassmodel Calulator_2.xcclassmodel
+s317805011.216195
+e317805011.230008
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Calulator.app/Calulator_2.xcclassmodel
+xCalulator_2.xcclassmodel
+lSLF07#2@29"Copy Calulator_2.xcclassmodel317805011#317805011#0(0"0(0#0#64"/Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_2.xcclassmodel8630793696#635"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_2.xcclassmodel /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app0#
+
+CGenerateDSYMFile /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app.dSYM /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator
+s317846556.476497
+e317846556.491309
+r1
+xGenerateDSYMFile
+x/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app.dSYM
+x/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/Calulator.app.dSYM build/Debug-iphonesimulator/Calulator.app/Calulator317846556#317846556#0(0"0(0#0#102"/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator8619600960#425"    cd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator -o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app.dSYM0#
+
+CGenerateDSYMFile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app.dSYM /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator
+s317804333.684617
+e317804333.702176
+r1
+xGenerateDSYMFile
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app.dSYM
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/Calulator.app.dSYM build/Debug-iphonesimulator/Calulator.app/Calulator317804333#317804333#0(0"0(0#0#91"/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator8638080832#540"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/usr/bin/dsymutil /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app.dSYM0#
+
+CLd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator normal i386
+s317846556.455846
+e317846556.476414
+r1
+xLd
+x/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator
+xnormal
+xi386
+lSLF07#2@107"Link /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator317846556#317846556#0(0"0(0#0#0"8618398976#970"    cd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -F/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -filelist /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/Calulator.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator0#
+
+CLd /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator normal i386
+s317804333.500587
+e317804333.684517
+r1
+xLd
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator
+xnormal
+xi386
+lSLF07#2@96"Link /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator317804333#317804333#0(0"0(0#0#0"8638363744#1063"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -filelist /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Objects-normal/i386/Calulator.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Calulator0#
+
+CProcessInfoPlistFile /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Info.plist Calulator-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Info.plist Calulator-Info.plist
+s317804331.179980
+e317804331.184752
+r1
+xProcessInfoPlistFile
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Info.plist
+xCalulator-Info.plist
+lSLF07#2@28"Process Calulator-Info.plist317804331#317804331#0(0"0(0#0#60"/Users/kunaldeo/Dropbox/Learn/Calulator/Calulator-Info.plist8635085312#636"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    builtin-infoPlistUtility Calulator-Info.plist -genpkginfo /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app/Info.plist0#
+
+CProcessPCH /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fftmmoreqqpwhydczjhbkqgenapu/Calulator_Prefix.pch.gch Calulator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317804331.943498
+e317804333.353072
+r1
+xProcessPCH
+x/var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fftmmoreqqpwhydczjhbkqgenapu/Calulator_Prefix.pch.gch
+xCalulator_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Calulator_Prefix.pch317804331#317804333#0(0"0(0#0#60"/Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_Prefix.pch8635260192#2002"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-generated-files.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-own-target-headers.hmap -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-project-headers.hmap -F/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/include -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources/i386 -I/Users/kunaldeo/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources -c /Users/kunaldeo/Dropbox/Learn/Calulator/Calulator_Prefix.pch -o /var/folders/-G/-Gd2yz1aFwicEIt1pSp-t++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-fftmmoreqqpwhydczjhbkqgenapu/Calulator_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/IJ/IJMSGMOgEDSvA-BFdLerPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-akybecuptzfjngfnnxzyqvlvkvvr/Calulator_Prefix.pch.gch Calulator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317828821.578404
+e317828822.202513
+r1
+xProcessPCH
+x/var/folders/IJ/IJMSGMOgEDSvA-BFdLerPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-akybecuptzfjngfnnxzyqvlvkvvr/Calulator_Prefix.pch.gch
+xCalulator_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Calulator_Prefix.pch317828821#317828822#0(0"0(0#0#71"/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Calulator_Prefix.pch6877682126589555712#1964"    cd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-generated-files.hmap -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-own-target-headers.hmap -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-all-target-headers.hmap -iquote /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/Calulator-project-headers.hmap -F/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/include -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources/i386 -I/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Calulator.build/Debug-iphonesimulator/Calulator.build/DerivedSources -c /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/Calulator_Prefix.pch -o /var/folders/IJ/IJMSGMOgEDSvA-BFdLerPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calulator_Prefix-akybecuptzfjngfnnxzyqvlvkvvr/Calulator_Prefix.pch.gch0#
+
+CTouch /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app
+s317846582.412163
+e317846582.414151
+r1
+xTouch
+x/Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app
+lSLF07#2@98"Touch /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app317846582#317846582#0(0"0(0#0#0"8613950560#304"    cd /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/harryd/Dropbox-Work/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app0#
+
+CTouch /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app
+s317805011.230657
+e317805011.233799
+r1
+xTouch
+x/Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app
+lSLF07#2@87"Touch /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app317805011#317805011#0(0"0(0#0#0"8600078208#430"    cd /Users/kunaldeo/Dropbox/Learn/Calulator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/kunaldeo/src/google/depot_tools"    /usr/bin/touch -c /Users/kunaldeo/Dropbox/Learn/Calulator/build/Debug-iphonesimulator/Calulator.app0#
+

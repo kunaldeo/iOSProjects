@@ -1,0 +1,176 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* CalulatorAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1246}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 304}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Calulator */ = {
+		activeExec = 0;
+		executables = (
+			4CB50C7B12F1AEAF00F83AF4 /* Calulator */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* CalulatorViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 378}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{174, 288}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* CalulatorViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 1414}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 324}";
+			sepNavWindowFrame = "{{15, 250}, {842, 803}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4CB50C7B12F1AEAF00F83AF4 /* Calulator */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Calulator */;
+		codeSenseManager = 4CB50C9312F1AEBB00F83AF4 /* Code sense */;
+		executables = (
+			4CB50C7B12F1AEAF00F83AF4 /* Calulator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317829012;
+			PBXWorkspaceStateSaveDate = 317829012;
+		};
+		perUserProjectItems = {
+			4CB50C9C12F1AF5600F83AF4 /* PBXTextBookmark */ = 4CB50C9C12F1AF5600F83AF4 /* PBXTextBookmark */;
+			4CBA045212F1C4A8002CF03F /* PBXTextBookmark */ = 4CBA045212F1C4A8002CF03F /* PBXTextBookmark */;
+			4CBA045312F1C4A8002CF03F /* PBXTextBookmark */ = 4CBA045312F1C4A8002CF03F /* PBXTextBookmark */;
+			4CBA048B12F1F424002CF03F /* PBXTextBookmark */ = 4CBA048B12F1F424002CF03F /* PBXTextBookmark */;
+			4CBA049312F1F58F002CF03F /* PBXTextBookmark */ = 4CBA049312F1F58F002CF03F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4CB50C9212F1AEBB00F83AF4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4CB50C7B12F1AEAF00F83AF4 /* Calulator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Calulator;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	4CB50C9212F1AEBB00F83AF4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4CB50C9312F1AEBB00F83AF4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4CB50C9C12F1AF5600F83AF4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CalulatorAppDelegate.m */;
+		name = "CalulatorAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 0;
+	};
+	4CBA045212F1C4A8002CF03F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CalulatorViewController.h */;
+		name = "CalulatorViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 174;
+	};
+	4CBA045312F1C4A8002CF03F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CalulatorViewController.m */;
+		name = "CalulatorViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 0;
+	};
+	4CBA048B12F1F424002CF03F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7B81A07012F11D8B0061DBBE /* CalculatorBrain.m */;
+		name = "CalculatorBrain.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 262;
+		vrLoc = 0;
+	};
+	4CBA049312F1F58F002CF03F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7B81A07012F11D8B0061DBBE /* CalculatorBrain.m */;
+		name = "CalculatorBrain.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 262;
+		vrLoc = 0;
+	};
+	7B81A07012F11D8B0061DBBE /* CalculatorBrain.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1470}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 262}";
+			sepNavWindowFrame = "{{627, 228}, {669, 731}}";
+		};
+	};
+}
