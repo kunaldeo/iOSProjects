@@ -121,6 +121,7 @@ double memval = 0;
 		[self performWaitingOperation];
 		waitingOperation = operation;
 		waitingOperand = operand;
+       
 	}
 
 	
